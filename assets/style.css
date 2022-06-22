@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+    text-decoration:none;
+}
+header {
+    display: flex;
+    background-color: slategray;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+nav {
+    display: flex;
+    color: white;
+}
+nav a {
+    margin-left: 15px;
+    color:white;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-me {
+    width: 100%;
+    background:rgb(207, 202, 202);
+}
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 0 50%;
+}
+.contact-me{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.p-link {
+    width: 50%;
+}
+.p-link a {
+    max-width: 320 px;
+    max-height: 320 px;
+}
+#top-project {
+    width: 100%;
+    justify-content: center;
+}
