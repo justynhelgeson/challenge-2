@@ -98,3 +98,10 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 600px){
+    nav, .contact-me {
+        flex-direction: column;
+    }
+    
+}
